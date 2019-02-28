@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -229,13 +229,13 @@
 					"patching_rect" : [ 1304.666625999999951, 1001.333312999999976, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -280,13 +280,13 @@
 					"patching_rect" : [ 971.0, 1001.333312999999976, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -575,7 +575,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -640,7 +640,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1765,7 +1765,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2080,7 +2080,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2126,7 +2126,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 0,
-															"revision" : 0,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3726,7 +3726,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3945,7 +3945,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4193,7 +4193,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4663,7 +4663,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4774,7 +4774,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5254,11 +5254,11 @@
 									"patching_rect" : [ 331.430176000000017, 119.526061999999996, 75.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 1,
 											"parameter_longname" : "live.slider[3]",
 											"parameter_mmax" : 1.0,
 											"parameter_shortname" : "live.slider",
-											"parameter_type" : 0
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 1
 										}
 
 									}
@@ -5545,7 +5545,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5829,7 +5829,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5951,8 +5951,8 @@
 									"id" : "obj-28",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "bang", "bang" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 72.0, 22.0 ],
 									"text" : "TextReader"
 								}
@@ -6140,7 +6140,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6273,8 +6273,8 @@
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "bang", "bang" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 100.0, 72.0, 22.0 ],
 									"text" : "TextReader"
 								}
@@ -6462,7 +6462,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6591,7 +6591,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7929,7 +7929,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8332,7 +8332,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8808,7 +8808,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9369,8 +9369,8 @@
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "bang", "bang" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 842.0, 142.0, 261.0, 22.0 ],
 					"text" : "TextReader"
 				}
@@ -9416,8 +9416,8 @@
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "bang", "bang" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 487.0, 146.0, 214.0, 22.0 ],
 					"text" : "TextReader"
 				}
@@ -9464,7 +9464,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 4,
-					"outlettype" : [ "", "", "bang", "bang" ],
+					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 61.5, 143.0, 241.0, 22.0 ],
 					"text" : "TextReader"
 				}
@@ -10538,10 +10538,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-136::obj-147" : [ "live.slider[3]", "live.slider", 0 ],
 			"obj-134" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-135" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-140::obj-125::obj-16" : [ "live.text", "live.text", 0 ],
-			"obj-136::obj-147" : [ "live.slider[3]", "live.slider", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -10549,66 +10548,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "TextReader.maxpat",
-				"bootpath" : "~/Documents/2018/Masters/WET DREAM II/piece",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxuino.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/externals/maxuino-master",
-				"patcherrelativepath" : "../../../../Max 7/Packages/externals/maxuino-master",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxuino.js",
-				"bootpath" : "~/Documents/Max 7/Packages/externals/maxuino-master/support",
-				"patcherrelativepath" : "../../../../Max 7/Packages/externals/maxuino-master/support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxuino-gui.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/externals/maxuino-master/support",
-				"patcherrelativepath" : "../../../../Max 7/Packages/externals/maxuino-master/support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Teensy++.png",
-				"bootpath" : "~/Documents/Max 7/Packages/externals/maxuino-master/hardware",
-				"patcherrelativepath" : "../../../../Max 7/Packages/externals/maxuino-master/hardware",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxuino-hardware.txt",
-				"bootpath" : "~/Documents/Max 7/Packages/externals/maxuino-master/hardware",
-				"patcherrelativepath" : "../../../../Max 7/Packages/externals/maxuino-master/hardware",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxuino-debug.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/externals/maxuino-master/support",
-				"patcherrelativepath" : "../../../../Max 7/Packages/externals/maxuino-master/support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "delayedEnd.maxpat",
-				"bootpath" : "~/Documents/2018/Masters/WET DREAM II/piece",
+				"bootpath" : "~/Documents/2018/Masters/WET DREAM II/wetdreamii_gh",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxuino.adafruit-pwm-16.js",
-				"bootpath" : "~/Documents/Max 7/Packages/externals/maxuino-master/support",
-				"patcherrelativepath" : "../../../../Max 7/Packages/externals/maxuino-master/support",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
