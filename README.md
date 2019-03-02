@@ -14,6 +14,7 @@ Somewhere between documentation and caricature, _WET DREAM II_ suspends these ro
 ---
 
 _Written as part of Marcus Jackson's Masters Thesis:_ 
+
 __DISCONTINUITY:__ a compositional approach to the dynamic decoupling of gesture and sound in live performance
 
 To run this patch, you will need to have the [Maxuino](https://github.com/maxuino/maxuino) external installed in your Max externals directory.
