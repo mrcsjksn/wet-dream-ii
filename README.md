@@ -19,6 +19,8 @@ __DISCONTINUITY:__ a compositional approach to the dynamic decoupling of gesture
 
 To run this patch, you will need to have the [Maxuino](https://github.com/maxuino/maxuino) external installed in your Max externals directory.
 
+---
+
 #### Performance History
 
 __07/12/2018:__ Performed by Jameson Feakes (e.gt) and Ben Stacy (kit) — [video here](https://www.youtube.com/watch?v=NoxWIw0rQxU)
